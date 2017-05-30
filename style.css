@@ -1,7 +1,7 @@
 div {
   text-align: center;
   overflow: hidden;
-  border: 2px solid red;
+  border: 2px red;
   width: 300px;
   background: yellow;
 }
