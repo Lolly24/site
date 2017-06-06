@@ -1,20 +1,20 @@
 
 <!DOCTYPE html>
-<html 
-      xmlns="http://www.w3.org/1999/xhtml"
-      xml:lang="en-US"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US"> 
   <head profile="http://www.w3.org/2005/10/profile">
-    <link rel="icon"
-          type="image/png"
-          href="https://www.spreadshirt.co.uk/image-server/v1/designs/16413886,width=178,height=178/stick-figures-cool.png" />
-        <title>wanted poster</title>
-  
-  <head>
+    <title>wanted poster</title>
+    <link rel="icon" type="image/png" href="https://www.spreadshirt.co.uk/image-server/v1/designs/16413886,width=178,height=178/stick-figures-cool.png" />
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="prefixfree.js"></script>    
   </head>
   
   <body>
-  
+    <p>Hi. My name is batman.</p>
+    <p>I like <b>running</b> and <i>riding the batmobile</i>.</p>
+    <p>I am better than superman but he is a nice guy</p>
+    <p>My sidekick is none other than robin.</p>
+
     <div>  
       <h1>Wanted!</h1>
       <h3>Have you seen this robot?</h3>
@@ -23,6 +23,28 @@
       <p>If you have any information, please contact 111 or 911 </p>
     </div>
     
-  </body>
+    <div id="outside">
+      <p id="outside-title">
+        Happy Birthday!
+      </p>
+      <img id="outside-pic" src="https://sandbox.trinket-shell.com/b3a456cd295e17de/robot.png">
+      <p>
+        <button onclick="open_card()">Click to open</button>
+      </p>
+    </div>
   
+    <div id="inside">
+      <p id="inside-title">
+        Happy Birthday!
+      </p>
+      <img id="inside-pic" src="https://sandbox.trinket-shell.com/b3a456cd295e17de/girl.png">
+      <p id="message">
+        Your message here!
+      </p>
+      <p>
+        <button onclick="close_card()">Click to close</button>
+      </p>
+      
+    </div>
+  </body>  
 </html>
